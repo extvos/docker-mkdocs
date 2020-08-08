@@ -7,3 +7,4 @@ RUN apk update && \
     pip3 install --no-cache-dir mkdocs 
 
 VOLUME /docs
+WORKDIR /docs
